@@ -1,0 +1,42 @@
+.category-wrapper {
+	display: table;
+	width: 100%;
+}
+
+.category-inner-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+
+	h2 {
+		color: $white;
+		letter-spacing: 2px;
+		font-size: rem-calc(85);
+		text-shadow: 3px 3px 5px $black-trans;
+	}
+
+	p {	
+		margin-top: 2rem;
+		font-size: rem-calc(24);
+
+		a {
+
+			color: $white;
+			text-shadow: 3px 3px 5px $black-trans;
+			@include border-button;
+			padding-right: 4rem;
+			padding-left: 4rem;
+			@include transition;
+
+			&:hover {
+				
+				background: $white;
+				color: $dark-gray;
+				text-shadow: none;
+				@include transition;
+				text-decoration: none;
+			}
+
+		}
+	}
+}

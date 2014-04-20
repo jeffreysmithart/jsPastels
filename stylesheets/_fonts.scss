@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'zona_problack';
+    src: url('../fonts/zonapro-black-webfont.eot');
+    src: url('../fonts/zonapro-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/zonapro-black-webfont.woff') format('woff'),
+         url('../fonts/zonapro-black-webfont.ttf') format('truetype'),
+         url('../fonts/zonapro-black-webfont.svg#zona_problack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'zona_problack_italic';
+    src: url('../fonts/zonapro-blackitalic-webfont.eot');
+    src: url('../fonts/zonapro-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/zonapro-blackitalic-webfont.woff') format('woff'),
+         url('../fonts/zonapro-blackitalic-webfont.ttf') format('truetype'),
+         url('../fonts/zonapro-blackitalic-webfont.svg#zona_problack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@mixin zona-black{ font-family: 'zona_problack'; }
+@mixin zona-black-italic{ font-family: 'zona_problack_italic';}
+@mixin varela-round{ font-family: 'Varela Round', sans-serif;}
+
+

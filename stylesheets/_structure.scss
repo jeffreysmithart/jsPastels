@@ -1,0 +1,23 @@
+@mixin section-padding {
+	padding: rem-calc(50) 0;
+}
+
+@mixin section-header {
+    font-size: rem-calc(85);
+    text-transform: lowercase;
+    margin-bottom: 2rem;
+    color: $dark-gray;
+}
+
+@mixin border-button($bcolor: $white,$bwidth: rem-calc(3), $pad: 1rem) {
+	border: $bwidth solid $bcolor;
+	padding: $pad;
+}
+
+@mixin transition{
+	-webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}

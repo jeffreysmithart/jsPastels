@@ -1,0 +1,123 @@
+@import "burger";
+
+.menu-button {
+	display: inline-block;
+	padding: .5em;
+	//background-color: $green;
+	border: 2px solid $black-trans;
+	float: right;
+	width: 75px;
+	height: 75px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: $dark-dark-gray;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	z-index: 100;
+	transition: all 100ms ease;
+
+	&:hover {
+	text-decoration: none;
+
+	}
+
+	p {
+			text-align: center;
+			margin-top: 1.5em;
+			transition: all 100ms ease;
+		
+
+		}
+	
+
+}
+
+.burger-icon {
+	@include burger(25px, 3px, 5px, #444);
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+.menu-button.is-active .burger-icon {
+	@include burger-to-cross;
+
+	
+}
+
+
+
+.menu-box {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	transition: all 200ms ease;
+	float: right;
+	text-align: center;
+	position: fixed;
+	top: 5px;
+	right: 80px;
+
+	ul {
+		list-style: none;
+	}
+
+	a{
+		color: #2d2d2d;
+		font-weight: 100;
+		text-decoration: none;
+	}
+
+
+}
+
+.active {
+	width: 225px;
+	height: 75px;
+	background: rgba(255,255,255, 0.5);
+	transition: all 200ms ease;
+	z-index: 99;
+
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+	
+	li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	width: 33.33333%;
+
+		&:nth-of-type(2) {
+
+			a {
+				border-left: 2px solid rgba(0,0,0, 0.2);
+				border-right: 2px solid rgba(0,0,0, 0.2);
+				
+			}
+		}
+	}
+
+
+	a {
+		width: 100%;
+		height: 75px;
+		display: inline-block;
+		float: left;
+		line-height: 75px;
+		vertical-align: baseline;
+		box-sizing: border-box;
+	
+
+		
+
+		&:hover {
+			background: $black-trans;
+			transition: all 200ms ease;
+			color: $white;
+		}
+	}
+}
