@@ -9,7 +9,7 @@ include("inc/inside-pages.php");
 				      <a href="items.php?category_id=11" ><img src="img/portfolio-1.jpg" alt="Jeffrey Smith Landscape" class="img-responsive"></a>
 				      <div class="caption">
 				        <h3>Landscape</h3>
-				        <p>Nothing compares with painting on location. It's the best and some say only way to really capture a sense of space.</p> 
+				        <p>Nothing compares with painting on location. It's the best&mdash; and some say only&mdash; way to really capture a sense of space.</p> 
 				        <a href="items.php?category_id=11" class="item-return" role="button">View Paintings ></a></p>
 				      </div>
 				    </div>
@@ -31,7 +31,7 @@ include("inc/inside-pages.php");
 				      <a href="items.php?category_id=12" ><img src="img/portfolio-5.jpg" alt="Jeffrey Smith Still Life" class="img-responsive"></a>
 				      <div class="caption">
 				        <h3>Still Life</h3>
-				        <p>Still life gives the opportunity to play with composition like no other genre can. The painting becomes your stage and the objects players to help tell you story.</p> 
+				        <p>Still life gives the opportunity to play with composition like no other genre can. The painting becomes your stage and the objects players to help tell your story.</p> 
 				        <a href="items.php?category_id=12" class="item-return" role="button">View Paintings ></a></p>
 				      </div>
 				    </div>

@@ -75,7 +75,7 @@ include("inc/header.php");
           </div>
           <div class="container">
             <div class="col-sm-12 col-md-6 quote">
-                <p>Pastel is one of the purest form of painting &mdash; you work with your hands, sticks of almost straight pigment and little else!</p>
+                <p>Pastel is one of the purest forms of painting &mdash; you work with your hands, sticks of almost straight pigment and little else!</p>
                
               </div>
               <div class="col-sm-12 col-md-6 quote">
@@ -86,7 +86,7 @@ include("inc/header.php");
         <div class="row">
           <div class="container">
             <div class="col-sm-12 col-md-6 quote">
-              <p>I rarely find the actual colors that I need amongst the pastel sticks in my box. I work towards the desired end result by using overlapping strokes of different colors. My goal for when working with pastel is to celebrate the medium and have the surface of my paintings made up of several different colors.</p>
+              <p>I rarely find the actual colors that I need amongst the pastel sticks in my box. I work towards the desired end result by using overlapping strokes of different colors. My goal when working with pastel is to celebrate the medium and have the surface of my paintings made up of several different colors.</p>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 pull-right" id="green-box">

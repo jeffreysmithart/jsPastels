@@ -8,7 +8,7 @@ include('inc/inside-pages.php');
 		
 		<h3>The Short History</h3>
 		
-		<p>One of my earliest memories is sitting on the kitchen floor with beagle Casey, and drawing for hours on end.</p>
+		<p>One of my earliest memories is sitting on the kitchen floor with my beagle Casey, and drawing for hours on end.</p>
 		
 		<p>We had this huge coffee can full of crayons.  I used to dig through it looking for just the right color to draw on a fresh sheet of typing paper.  My mother tells me that I used to do this almost every day, right after watching Mr. Rogers on PBS.</p>
 		

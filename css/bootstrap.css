@@ -5182,9 +5182,10 @@ a img.service-icon:hover {
     color: #324e61;
     font-size: 1.5rem;
     line-height: 1.5;
-    max-width: 75%;
     padding-right: 1rem;
     padding-left: 1rem; }
+  .whypastels #green-box img {
+    float: right; }
   @media (min-width: 1200px) {
     .whypastels #green-box {
       margin-top: -19em; } }
@@ -5620,7 +5621,9 @@ h1#letter {
     margin: 0; } }
 @media (max-width: 768px) {
   .header {
-    background: url(../img/pastel-hand.jpg) no-repeat center center scroll; }
+    background: url(../img/pastel-hand.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover; }
 
   .items_thumb img {
     margin: 0 auto 3em; }
@@ -5634,17 +5637,22 @@ h1#letter {
   .descrip {
     margin-bottom: 2rem; }
     .descrip p {
-      padding-left: 20px;
-      padding-right: 20px; }
+      padding-left: 1.25rem;
+      padding-right: 1.25rem; }
+    .descrip h3 {
+      padding-left: 1.25rem; }
 
   .item-img {
     display: block;
     margin-right: auto;
     margin-left: auto; } }
+@media (max-width: 31.25rem) {
+  div#top h1, #portfolio h2, .whypastels h2, .category-inner-wrapper h2 {
+    font-size: 4.5rem !important; } }
 @media (max-width: 25em) {
   div#top h1 {
     letter-spacing: 6px;
-    font-size: 3.5em; }
+    font-size: 4.5em; }
 
   div#top h3 {
     font-size: 175%;

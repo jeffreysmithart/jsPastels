@@ -244,7 +244,7 @@ box-shadow: 0 1px 8px rgba(0,0,0,.25);
       color: $dark-blue;
       font-size: rem-calc(24);
       line-height: 1.5;
-      max-width: 75%;
+      
       padding-right: 1rem;
       padding-left: 1rem;
       
@@ -252,7 +252,9 @@ box-shadow: 0 1px 8px rgba(0,0,0,.25);
 
   }
 #green-box {
-
+  img {
+    float: right;
+  }
   @media (min-width: $screen-lg-min) { 
     margin-top: -19em;
    }
@@ -815,6 +817,7 @@ vertical-align: middle;
   
   .header {
   background: url(../img/pastel-hand.jpg) no-repeat center center scroll; 
+  background-size: cover;
   }
 
   
@@ -834,10 +837,14 @@ margin-bottom: rem-calc(32);
 
 
 p {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: rem-calc(20);
+  padding-right: rem-calc(20);
 
 
+}
+
+h3 {
+  padding-left: rem-calc(20);
 }
 
 }
@@ -850,11 +857,19 @@ p {
 
 }
 
+@media (max-width: rem-calc(500)) {
+  div#top h1, #portfolio h2, .whypastels h2, .category-inner-wrapper h2 {
+    font-size: rem-calc(72) !important;
+  }
+  
+}
+
+
 @media (max-width: 25em) {
   
 div#top h1 {
 letter-spacing: 6px;
-font-size: 3.5em;
+font-size: 4.5em;
 }
 
 div#top h3 {
