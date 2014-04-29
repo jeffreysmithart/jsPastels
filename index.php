@@ -12,7 +12,7 @@ include("inc/header.php");
       <div class="container">
         <div class="row">
 
-        <div class="col-md-6 col-small-12"><h1 class="target">Jeffrey<br />Smith</h1>
+        <div class="col-md-6 col-small-12"><h1 class="target">Je<span>f</span>frey<br />Smith</h1>
               <h3 class="target">Pastels</h3></div>
         
       </div>

@@ -5015,7 +5015,10 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Varela Round', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  -webkit-font-variant-ligatures: common-ligatures;
+  -moz-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures; }
 
 h2 {
   font-family: 'zona_problack'; }
@@ -5037,7 +5040,10 @@ h2 {
   padding: 0;
   margin: 0;
   font-size: 4.5em;
-  font-weight: 700; }
+  font-weight: 700;
+  -webkit-font-variant-ligatures: common-ligatures;
+  -moz-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures; }
 
 /* Full Page Image Header Area */
 .header {
@@ -5061,9 +5067,14 @@ div#top h1 {
   font-family: 'zona_problack';
   line-height: .9;
   font-weight: 100;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   color: #33332d;
-  font-size: 7.75rem; }
+  font-size: 7.75rem;
+  -webkit-font-variant-ligatures: common-ligatures;
+  -moz-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures; }
+  div#top h1 span {
+    letter-spacing: -4px; }
 
 div#top h3 {
   font-weight: normal;
@@ -5133,7 +5144,7 @@ a img.service-icon:hover {
   padding: 3.125rem 0; }
 
 .portfolio-item {
-  margin-bottom: 25px; }
+  margin-bottom: 0.3125rem; }
 
 .portfolio-item-wrapper {
   margin-bottom: 2rem; }
@@ -5143,7 +5154,9 @@ a img.service-icon:hover {
   #portfolio h4 {
     font-family: 'Varela Round', sans-serif;
     font-style: italic;
-    color: #8F9699; }
+    color: #8F9699;
+    margin-top: 0.3125rem;
+    margin-bottom: 1.5625rem; }
   #portfolio h2 {
     font-size: 5.3125rem;
     text-transform: lowercase;
@@ -5165,6 +5178,9 @@ a img.service-icon:hover {
   color: #60605d;
   letter-spacing: 2px;
   font-size: 3.125rem; }
+
+span.ff-lig {
+  letter-spacing: -2px; }
 
 /* why pastels =============================*/
 .whypastels {
@@ -5355,7 +5371,10 @@ h1#letter {
   display: inline-block;
   color: #939390;
   font-size: 3.125rem;
-  line-height: .88; }
+  line-height: .88;
+  -webkit-font-variant-ligatures: common-ligatures;
+  -moz-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures; }
 
 .super {
   width: 13em;

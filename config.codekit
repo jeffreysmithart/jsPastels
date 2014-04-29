@@ -10245,39 +10245,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/img\/bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 330347,
-		"inputAbbreviatedPath": "\/img\/bg.jpg",
-		"outputAbbreviatedPath": "\/img\/bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/bg2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 189603,
-		"inputAbbreviatedPath": "\/img\/bg2.jpg",
-		"outputAbbreviatedPath": "\/img\/bg2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/callout.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 146329,
-		"inputAbbreviatedPath": "\/img\/callout.jpg",
-		"outputAbbreviatedPath": "\/img\/callout.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/img\/jeff1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10311,17 +10278,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/pastels.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 110190,
-		"inputAbbreviatedPath": "\/img\/pastels.jpg",
-		"outputAbbreviatedPath": "\/img\/pastels.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/img\/pastels.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10340,39 +10296,6 @@
 		"initialSize": 21476,
 		"inputAbbreviatedPath": "\/img\/porfolio-2.jpg",
 		"outputAbbreviatedPath": "\/img\/porfolio-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/port-icon-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27100,
-		"inputAbbreviatedPath": "\/img\/port-icon-1.jpg",
-		"outputAbbreviatedPath": "\/img\/port-icon-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/port-icon-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26292,
-		"inputAbbreviatedPath": "\/img\/port-icon-2.jpg",
-		"outputAbbreviatedPath": "\/img\/port-icon-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/port-icon-3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28843,
-		"inputAbbreviatedPath": "\/img\/port-icon-3.jpg",
-		"outputAbbreviatedPath": "\/img\/port-icon-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1

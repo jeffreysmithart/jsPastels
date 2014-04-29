@@ -10,7 +10,7 @@ include("inc/inside-pages.php");
 				      <div class="caption">
 				        <h3>Landscape</h3>
 				        <p>Nothing compares with painting on location. It's the best&mdash; and some say only&mdash; way to really capture a sense of space.</p> 
-				        <a href="items.php?category_id=11" class="item-return" role="button">View Paintings ></a></p>
+				        <a href="items.php?category_id=11" class="item-return" role="button">View Paintings <i class="fa fa-chevron-circle-right"></i></a></p>
 				      </div>
 				    </div>
 			  </div>
@@ -21,7 +21,7 @@ include("inc/inside-pages.php");
 				      <div class="caption">
 				        <h3>Portrait</h3>
 				        <p>Getting the chance to paint someone is a special gift. It gives you the ability to stop and take the time to really see them and try to capture some of that on paper.</p> 
-				        <a href="items.php?category_id=10" class="item-return" role="button">View Paintings ></a></p>
+				        <a href="items.php?category_id=10" class="item-return" role="button">View Paintings <i class="fa fa-chevron-circle-right"></i></a></p>
 				      </div>
 				    </div>
 			  	</div>
@@ -32,7 +32,7 @@ include("inc/inside-pages.php");
 				      <div class="caption">
 				        <h3>Still Life</h3>
 				        <p>Still life gives the opportunity to play with composition like no other genre can. The painting becomes your stage and the objects players to help tell your story.</p> 
-				        <a href="items.php?category_id=12" class="item-return" role="button">View Paintings ></a></p>
+				        <a href="items.php?category_id=12" class="item-return" role="button">View Paintings <i class="fa fa-chevron-circle-right"></i></a></p>
 				      </div>
 				    </div>
 			  	</div>

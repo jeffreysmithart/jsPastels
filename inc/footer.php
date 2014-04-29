@@ -4,17 +4,17 @@
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
             <ul class="list-inline">
-              <li><a href="http://facebook.com"><i class="fa fa-facebook fa-3x"></i></a></li>
-              <li><a href="https://twitter.com/jeffreysmithart"><i class="fa fa-twitter fa-3x"></i></a></li>
-              <li><a href="http://www.pinterest.com/jeffreysmithart/"><i class="fa fa-pinterest fa-3x"></i></a></li>
-              <li><a href="https://www.linkedin.com/pub/jeffrey-smith/12/618/930"><i class="fa fa-linkedin fa-3x"></i></a></li>
+              <li><a href="mailto:jeffrey@jeffreysmithdesigner.com"><i class="fa fa-envelope fa-3x"></i></a></li>
+              <li><a href="https://twitter.com/jeffreysmithart"><i class="fa fa-twitter-square fa-3x"></i></a></li>
+              <li><a href="http://www.pinterest.com/jeffreysmithart/"><i class="fa fa-pinterest-square fa-3x"></i></a></li>
+              <li><a href="https://www.linkedin.com/pub/jeffrey-smith/12/618/930"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
               <!--<li><a href="https://www.youtube.com/user/jsmith019658"><i class="fa fa-youtube fa-3x"></i></a></li>-->
             </ul>
             <div class="top-scroll">
               <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
             </div>
             <hr>
-            <p>Design and Content Copyright &copy; <?php echo date(Y); ?> Jeffrey Smith</p>
+            <p>Copyright &copy; <?php echo date(Y); ?> Jeffrey Smith</p>
           </div>
         </div>
       </div>

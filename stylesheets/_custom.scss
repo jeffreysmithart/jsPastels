@@ -6,6 +6,7 @@ body {
   width: 100%;
   font-family: 'Varela Round', sans-serif;
   font-size: 16px;
+  font-variant-ligatures: common-ligatures;
 }
 
 h2 {
@@ -33,6 +34,7 @@ z-index: 1;
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
+  font-variant-ligatures: common-ligatures;
 }
 
 
@@ -65,9 +67,14 @@ div#top h1 {
 @include zona-black;
 line-height: .9;
 font-weight: 100;
-letter-spacing: 4px;
+letter-spacing: 3px;
 color: $dark-dark-gray;
 font-size: rem-calc(124);
+font-variant-ligatures: common-ligatures;
+
+  span {
+    letter-spacing: -4px;
+  }
 
 }
 
@@ -167,7 +174,7 @@ box-shadow: 0 1px 8px rgba(0,0,0,.4);
 }
 
 .portfolio-item {
-  margin-bottom: 25px;
+  margin-bottom: rem-calc(5);
 
 }
 
@@ -183,6 +190,8 @@ background: $light-blue-gray;
     @include varela-round;
     font-style: italic;
     color:#8F9699;
+    margin-top: rem-calc(5);
+    margin-bottom: rem-calc(25);
 
   }
 
@@ -213,7 +222,9 @@ box-shadow: 0 1px 8px rgba(0,0,0,.25);
   font-size: rem-calc(50);
 }
 
-
+span.ff-lig {
+  letter-spacing: -2px; 
+}
 
 
 
@@ -475,6 +486,7 @@ h1#letter {
   color: lighten($dark-gray, 20%);
   font-size: rem-calc(50);
   line-height: .88;
+  font-variant-ligatures: common-ligatures;
 }
 .super {
   width: 13em;

@@ -5,7 +5,7 @@
 					<div class="center-block text-center">
 						
 						
-						<h1 class="page-logo">Jeffrey<br />Smith</h1>
+						<h1 class="page-logo">Je<span class="ff-lig">f</span>frey<br />Smith</h1>
 
 					</div>
 					
